@@ -26,8 +26,23 @@
 .container-info {
     width: 100%;
     height: 50vh;
-}
-
-.texto {
     background-color: aquamarine;
 }
+
+
+/*login registro */
+
+.Inicio-login {
+    width: 50%;
+    height: 100px;
+    margin-top: 30vh;
+    margin-left: 40vh;
+}
+
+.form-group {
+    width: 50%;
+    height: 110px;
+}
+
+
+/*barra login imagen y texto*/
