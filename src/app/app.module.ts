@@ -18,6 +18,9 @@ import { CuerpoComponent } from './component/cuerpo/cuerpo.component';
 import { InfoComponent } from './component/info/info.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { BarraloginComponent } from './component/barralogin/barralogin.component';
+import { LaboMicroComponent } from './labo-micro/labo-micro.component';
+import { LaboSemillasComponent } from './labo-semillas/labo-semillas.component';
+
 
 
 @NgModule({
@@ -30,6 +33,9 @@ import { BarraloginComponent } from './component/barralogin/barralogin.component
     InfoComponent,
     InicioComponent,
     BarraloginComponent,
+    LaboMicroComponent,
+    LaboSemillasComponent,
+    
     
   ],
   imports: [

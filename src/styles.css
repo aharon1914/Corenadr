@@ -32,17 +32,23 @@
 
 /*login registro */
 
+.contenedorlog {
+    height: 85vh;
+}
+
 .Inicio-login {
-    width: 50%;
-    height: 100px;
-    margin-top: 30vh;
-    margin-left: 40vh;
-}
-
-.form-group {
-    width: 50%;
-    height: 110px;
+    display: grid;
+    justify-content: center;
 }
 
 
-/*barra login imagen y texto*/
+/*barra login imagen y texto labo micro*/
+
+.contenedorform {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posbarra {
+    margin-left: 40rem;
+}
