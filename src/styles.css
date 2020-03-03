@@ -34,11 +34,9 @@
 
 .contenedorlog {
     height: 85vh;
-}
-
-.Inicio-login {
-    display: grid;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 

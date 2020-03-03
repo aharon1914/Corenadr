@@ -20,6 +20,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { BarraloginComponent } from './component/barralogin/barralogin.component';
 import { LaboMicroComponent } from './labo-micro/labo-micro.component';
 import { LaboSemillasComponent } from './labo-semillas/labo-semillas.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 
@@ -35,6 +36,7 @@ import { LaboSemillasComponent } from './labo-semillas/labo-semillas.component';
     BarraloginComponent,
     LaboMicroComponent,
     LaboSemillasComponent,
+    AdminComponent,
     
     
   ],
