@@ -19,7 +19,6 @@ import { InfoComponent } from './component/info/info.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { BarraloginComponent } from './component/barralogin/barralogin.component';
 import { LaboMicroComponent } from './labo-micro/labo-micro.component';
-import { LaboSemillasComponent } from './labo-semillas/labo-semillas.component';
 import { AdminComponent } from './admin/admin.component';
 
 
@@ -35,7 +34,7 @@ import { AdminComponent } from './admin/admin.component';
     InicioComponent,
     BarraloginComponent,
     LaboMicroComponent,
-    LaboSemillasComponent,
+
     AdminComponent,
     
     
