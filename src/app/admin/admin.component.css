@@ -7,7 +7,7 @@
 /*color de la barra de admin y estilos de la pagina*/
 
 .navbar {
-    background-color: rgb(45, 104, 36);
+    background-color: #048c7f;
 }
 
 
@@ -45,9 +45,10 @@
     font-size: 30pt;
     text-transform: uppercase;
     font-weight: bold;
-    background-color: #6CCB5E;
+    background-color: rgb(52, 148, 151);
     padding: 10px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     color: #ededed;
 }
 
@@ -81,5 +82,5 @@
 /*pie de pagina de boostrap*/
 
 .page-footer {
-    background-color: rgb(45, 104, 36);
+    background-color: #048c7f;
 }

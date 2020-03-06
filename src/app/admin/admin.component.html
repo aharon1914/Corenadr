@@ -1,9 +1,9 @@
 <nav class="navbar navbar-success">
-    <img src="../../assets/sedema1.5.png" width="250" height="70" class="d-inline-block align-top rounded" alt="">
+    <img src="../../assets/altepetl_horizontal_blanco.png" width="160" height="80" class="d-inline-block align-top rounded" alt="">
     <a class="navbar-brand" style="color: rgba(255, 255, 255, 0.884);">Administrador Semillas</a>
     <form class="form-inline">
 
-        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" [routerLink]="['/info']" routerLinkActive="router-link-active">Cerrar Sesion</button>
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" [routerLink]="['/info']" routerLinkActive="router-link-active">Cerrar Sesion</button>
     </form>
 </nav>
 
@@ -21,21 +21,26 @@
                     <ul><br>
 
                         <br>
-                        <li><a href="# " [routerLink]="['/nuevousuario']" routerLinkActive="router-link-active">Nuevo Administrador</a></li>
+                        <li>
+                            <i class="fas fa-user-cog mr-2"></i>
+                            <a href="# " style="color: black; font-size: 17px;" [routerLink]="['/nuevousuario']" routerLinkActive="router-link-active"> Nuevo Administrador</a>
+                        </li>
                         <br>
 
                         <br>
-                        <li><a href="# " [routerLink]="['/modificar']" routerLinkActive="router-link-active">Modificar</a></li>
+                        <li>
+                            <i class="fas fa-pen-nib mr-2  "></i>
+                            <a href="# " style="color: black; font-size: 17px;" [routerLink]="['/modificar']" routerLinkActive="router-link-active">Modificar</a></li>
                         <br>
                         <br>
                         <br>
-                        <li><a href=" # ">Siguiente</a></li>
+
 
                     </ul>
                 </div>
             </div>
         </aside>
-        <form class="border border-success p-3 rounded-lg m-5 " id="Formulario ">
+        <form class="border border-info p-3 rounded-lg m-5 " id="Formulario ">
             <div class="form-row ">
                 <div class="form-group col-md-4 ">
                     <label for="inputEmail4 ">Numero de viaje</label>
@@ -103,6 +108,7 @@
             </div>
 
             <button type="submit " class="btn btn-success btn-block ">Guardar informaciòn</button>
+            <button type="submit " class="btn btn-warning btn-block ">Siguiente</button>
         </form>
     </div>
 </main>
@@ -114,7 +120,7 @@
             <li>
                 <h5 class="mb-1 mt-2 " style="text-transform: uppercase; color: rgba(255, 255, 255, 0.842);">Laboratorio de Informacion Geostadistica del suelo de Conservacion</h5>
             </li>
-            <img src="../../assets/SEDEMA_RecursosNaturales_Desarrollo ALTEPETL__reducido.png" width="400" height="130" class="d-inline-block align-top rounded mt-3" alt="">
+            <img src="../../assets/blanco-CDMX-POSIBLE.png" width="400" height="120" class="d-inline-block align-top rounded mt-3" alt="">
         </ul>
     </div>
     <div class="footer text-center py-3">© 2020 Copyright:

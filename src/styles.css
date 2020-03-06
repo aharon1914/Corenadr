@@ -29,7 +29,7 @@
 
 .avatar {
     width: 25vh;
-    height: 20vh;
+    height: 19vh;
 }
 
 .contenedorlog {
@@ -81,5 +81,5 @@
 /*Pie de la pagina */
 
 .page-footer {
-    background-color: rgb(45, 104, 36);
+    background-color: #048c7f;
 }
