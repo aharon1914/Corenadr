@@ -20,6 +20,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { BarraloginComponent } from './component/barralogin/barralogin.component';
 import { LaboMicroComponent } from './labo-micro/labo-micro.component';
 import { AdminComponent } from './admin/admin.component';
+import { NuevousuarioComponent } from './nuevousuario/nuevousuario.component';
+import { ModificarComponent } from './modificar/modificar.component';
 
 
 
@@ -36,6 +38,10 @@ import { AdminComponent } from './admin/admin.component';
     LaboMicroComponent,
 
     AdminComponent,
+
+    NuevousuarioComponent,
+
+    ModificarComponent,
     
     
   ],

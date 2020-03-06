@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark  sticky-top" style="background: rgb(45, 104, 36);;" id="barrainiciopro">
+<nav class="navbar navbar-expand-lg navbar-dark  sticky-top" style="background: rgb(45, 104, 36);" id="barrainiciopro">
     <a class="navbar-brand" href="#">
         <img src="./../../../assets/sedema1.5.png" width="300" height="80" br-50 alt="" class="rounded">
     </a>
@@ -33,7 +33,7 @@
           </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" [routerLink]="['/login']">Semillas</a>
-                    <a class="dropdown-item" [routerLink]="['/login']">Microbiologia</a>
+                    <a class="dropdown-item">Microbiologia</a>
                     <a class="dropdown-item" href="#">Nutricion Forestal</a>
                     <a class="dropdown-item" href="#">Especie de arboles</a>
 
@@ -43,7 +43,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
 
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Iniciar Secion</button>
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" [routerLink]="['/login']" routerLinkActive="router-link-active">Iniciar Secion</button>
         </form>
     </div>
 </nav>

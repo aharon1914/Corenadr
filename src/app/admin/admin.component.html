@@ -3,7 +3,7 @@
     <a class="navbar-brand" style="color: rgba(255, 255, 255, 0.884);">Administrador Semillas</a>
     <form class="form-inline">
 
-        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Cerrar Sesion</button>
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit" [routerLink]="['/info']" routerLinkActive="router-link-active">Cerrar Sesion</button>
     </form>
 </nav>
 
@@ -19,14 +19,17 @@
 
                 <div class="cuerporec ">
                     <ul><br>
-                        <li><a href=" # ">Eliminar</a></li>
-                        <br>
-                        <li><a href="# ">Nuevo Administrador</a></li>
-                        <br>
-                        <li><a href="# ">Nuevas rutas</a></li>
-                        <br>
-                        <li><a href="# ">Modificar</a></li>
 
+                        <br>
+                        <li><a href="# " [routerLink]="['/nuevousuario']" routerLinkActive="router-link-active">Nuevo Administrador</a></li>
+                        <br>
+
+                        <br>
+                        <li><a href="# " [routerLink]="['/modificar']" routerLinkActive="router-link-active">Modificar</a></li>
+                        <br>
+                        <br>
+                        <br>
+                        <li><a href=" # ">Siguiente</a></li>
 
                     </ul>
                 </div>

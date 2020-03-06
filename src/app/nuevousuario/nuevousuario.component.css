@@ -1,0 +1,12 @@
+/*color de la barra de nuevo usuario y sus estilos de la pagina de nuevo usuario*/
+
+.navbar {
+    background-color: rgb(45, 104, 36);
+}
+
+
+/*Pie de pagina para nuevo administador*/
+
+.page-foote {
+    background-color: rgb(45, 104, 36);
+}
