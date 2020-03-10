@@ -1,0 +1,128 @@
+<nav class="navbar navbar-success">
+    <img src="../../assets/altepetl_horizontal_blanco.png" width="150" height="90" class="d-inline-block align-top rounded" alt="">
+    <a class="navbar-brand " style="color: rgba(255, 255, 255, 0.884); padding-right:14vh;">Salida del Producto</a>
+    <form class="form-inline">
+
+        <button class="btn btn-outline-success my-2 my-sm-0 mx-2" type="submit" [routerLink]="['/admin']" routerLinkActive="router-link-active">Atras</button>
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" [routerLink]="['/info']" routerLinkActive="router-link-active">Cerrar Sesion</button>
+    </form>
+</nav>
+
+<main class="modificar " id="principal-salida">
+    <div class="contenedor">
+
+        <form class="border border-success p-3 rounded-lg m-5  mt-1" id="Formulario ">
+            <div class="form-row ">
+                <div class="form-group col-md-2 ">
+                    <label for="inputfecha ">Fecha de salida</label>
+                    <input type="date" class="form-control " id="Fecha ">
+                </div>
+                <div class="form-group col-md-2 ">
+                    <label for="inputclave ">Clave/Id</label>
+                    <input type="text " class="form-control " id="Clave " placeholder="ejem: 016 ">
+                </div>
+                <div class="form-group col-md-3 ">
+                    <label for="inputmaterial ">Tipo de Material</label>
+                    <select class="form-control" id="material">
+                        <option value="#">NINGUNA</option>
+                        <option value="#">CONIFERAS</option>
+                        <option value="#">LATIFOLIADAS</option>
+                        <option value="#">ARBUSTIVAS</option>
+                        <option value="#">FRUTALES</option>
+                        
+                      </select>
+                </div>
+                <div class="form-group col-md-5 ">
+                    <label for="inputespecie ">Nombre de la especie</label>
+                    <select class="form-control" id="especie">
+                    <option value="#">NINGUNA</option>
+                    <option value="#"><em> CONIFERAS</em> </option>
+                    <option value="#">Abies Religiosa</option>
+                    <option value="#">Cupressus Lusitanica</option>
+                    <option value="#">Pinus Cembroides</option>
+                    <option value="#">Pinus Greggi</option>
+                    <option value="#">Pinus Hartwegii</option>
+                    <option value="#">Pinus Leiophylla</option>
+                    <option value="#">Pinus Devoniana</option>
+                    <option value="#">Pinus Montezumae</option>
+                    <option value="#">Pinus Patula</option>
+                    <option value="#">Pinus pseudostrobus</option>
+                    <option value="#">Pinus Rudis</option>
+                    <option value="#">Pinus Teocote</option>
+                    <option value="#">Taxodium Mucronatum</option>
+                    <option value="#"><em> LATIFOLIADAS</em></option>
+                    <option value="#">Alnus Jorullensis</option>
+                    <option value="#">Bursera Cuneata</option>
+                    <option value="#">Casuarina Equisetifolia</option>
+                    <option value="#">Fraxinus Udhei</option>
+                    <option value="#">Liquidambar Styraciflua</option>
+                    <option value="#">Prosopis Laevigata</option>
+                    <option value="#">Quercus spp</option>
+                    <option value="#">Salix Babylonica</option>
+                    <option value="#">Salix Bonplandiana</option>
+                    <option value="#">Tamarix Chinensis</option>
+                    <option value="#">Acacia Farnesiana</option>
+                    <option value="#">Agave Ferox</option>
+                    <option value="#">Agave Salmiana</option>
+                    <option value="#">Agave Mezcalero</option>
+                    <option value="#">Arbutus Xalapensis</option>
+                    <option value="#">Buddleja cordata</option>
+                    <option value="#">Dodonaea Viscosa</option>
+                    <option value="#">Echeveria gibbiflora</option>
+                    <option value="#">Eysenhardtia Polystachaya</option>
+                    <option value="#">Fucraea Bedinhaussi</option>
+                    <option value="#">Ipomea Murucoides</option>
+                    <option value="#">Mimosa Biuncifera</option>
+                    <option value="#"> Nolia Parviflora</option>
+                    <option value="#">Senecio Praecox</option>
+                    <option value="#">Senna Multigladulosa</option>
+                    <option value="#">Sedum Oxypetalum</option>
+                    <option value="#">Symphoricarpos Microphyllus</option>
+                    <option value="#">Tecoma Stans</option>
+                     
+                  </select>
+                </div>
+
+
+            </div>
+            <div class="form-row ">
+                <div class="form-group col-md-3 ">
+                    <label for="inputsemillassalida ">Cantidad de semillas de salida</label>
+                    <input type="text" class="form-control " id="salida_semillas " placeholder="#500 semillas">
+                </div>
+
+                <div class="form-group col-md-3 ">
+                    <label for="inputsemillassalida ">Motivo por el cual se Solicitan</label>
+                    <select class="form-control" id="semilla_salida">
+                        <option value="#">NINGUNA</option>
+                        <option value="#">Trabajo de Siembra</option>
+                        <option value="#">Escuelas solicitantes</option>
+                        <option value="#">Practicas Profesionales</option>
+                        <option value="#">Laboratorio de Microbiologia</option>
+                        <option value="#">Laboratorio de Nutricion Forestal</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-3 ">
+                    <label for="inputsemillassalida ">A Quien va Dirigido</label>
+                    <input type="text" class="form-control " id="dirigido " placeholder="Sr. Cara de papa">
+                </div>
+
+                <div class="form-group col-md-3 ">
+                    <label for="inputsemillassalida ">Ubicacion de la semilla</label>
+                    <input type="text" class="form-control " id="ubicacion " placeholder="San Luis Tlaxialtemalco">
+                </div>
+            </div>
+
+            <div class="form-row ">
+                <div class="form-group col-md-12 ">
+                    <label for="Observaciones ">Observaciones</label>
+                    <textarea class="form-control " id="observaciones " cols="10 " rows="8 " placeholder="Observaciones para el control y monitoreo de la produccion se semillas "></textarea>
+                </div>
+
+            </div>
+
+            <button type="submit " class="btn btn-info btn-block ">Guardar Salida</button>
+        </form>
+    </div>
+</main>

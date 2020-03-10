@@ -1,8 +1,6 @@
-<p>cuestionario works!</p>
-
 <nav class="navbar navbar-success">
     <img src="../../assets/altepetl_horizontal_blanco.png" width="160" height="80" class="d-inline-block align-top rounded" alt="">
-    <a class="navbar-brand" style="color: rgba(255, 255, 255, 0.884);">Formulario General</a>
+    <a class="navbar-brand" style="color: rgba(255, 255, 255, 0.884);">Laboratorio de Informacion Geostadistica del suelo de Conservacion</a>
     <form class="form-inline">
 
         <button class="btn btn-outline-success my-2 my-sm-0 mr-2" type="submit" [routerLink]="['/info']" routerLinkActive="router-link-active">Atras</button>
@@ -10,14 +8,14 @@
 
     </form>
 </nav>
-
+<h2 class="titulo-principal-formula">Formulario del Proceso de la Semillas</h2>
 <form class="border border-info p-3 rounded-lg m-5 " id="Formulario1 ">
     <div class="form-row ">
         <div class="form-group col-md-4">
             <label for="inputespecie">Nombre de la especie</label>
             <select class="form-control" id="especie">
               <option value="#">NINGUNA</option>
-              <option value="#">CONIFERAS</option>
+              <option value="#"><em> CONIFERAS</em> </option>
               <option value="#">Abies Religiosa</option>
               <option value="#">Cupressus Lusitanica</option>
               <option value="#">Pinus Cembroides</option>
@@ -31,7 +29,7 @@
               <option value="#">Pinus Rudis</option>
               <option value="#">Pinus Teocote</option>
               <option value="#">Taxodium Mucronatum</option>
-              <option value="#">LATIFOLIADAS</option>
+              <option value="#"><em> LATIFOLIADAS</em></option>
               <option value="#">Alnus Jorullensis</option>
               <option value="#">Bursera Cuneata</option>
               <option value="#">Casuarina Equisetifolia</option>
@@ -42,12 +40,30 @@
               <option value="#">Salix Babylonica</option>
               <option value="#">Salix Bonplandiana</option>
               <option value="#">Tamarix Chinensis</option>
+              <option value="#">Acacia Farnesiana</option>
+              <option value="#">Agave Ferox</option>
+              <option value="#">Agave Salmiana</option>
+              <option value="#">Agave Mezcalero</option>
+              <option value="#">Arbutus Xalapensis</option>
+              <option value="#">Buddleja cordata</option>
+              <option value="#">Dodonaea Viscosa</option>
+              <option value="#">Echeveria gibbiflora</option>
+              <option value="#">Eysenhardtia Polystachaya</option>
+              <option value="#">Fucraea Bedinhaussi</option>
+              <option value="#">Ipomea Murucoides</option>
+              <option value="#">Mimosa Biuncifera</option>
+              <option value="#"> Nolia Parviflora</option>
+              <option value="#">Senecio Praecox</option>
+              <option value="#">Senna Multigladulosa</option>
+              <option value="#">Sedum Oxypetalum</option>
+              <option value="#">Symphoricarpos Microphyllus</option>
+              <option value="#">Tecoma Stans</option>
                
             </select>
         </div>
         <div class="form-group col-md-3 ">
             <label for="inputfmaterial ">Tipo de Material</label>
-            <select class="form-control" id="clave">
+            <select class="form-control" id="material">
                 <option value="#">NINGUNA</option>
                 <option value="#">CONIFERAS</option>
                 <option value="#">LATIFOLIADAS</option>
@@ -192,18 +208,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
 
@@ -212,11 +216,10 @@
     <div class="form-row ">
         <div class="form-group col-md-12 ">
             <label for="Observaciones ">Observaciones</label>
-            <textarea class="form-control " id="observaciones " cols="10 " rows="8 "></textarea>
+            <textarea class="form-control " id="observaciones " cols="10 " rows="8 " placeholder="Esta semilla presenta un avance en el crecimiento "></textarea>
         </div>
 
     </div>
 
     <button type="submit " class="btn btn-success btn-block ">Guardar informaciòn</button>
-    <button type="submit " class="btn btn-warning btn-block " [routerLink]="[ '/cuestionario'] " routerLinkActive="router-link-active ">Siguiente</button>
 </form>

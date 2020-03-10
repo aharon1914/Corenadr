@@ -8,6 +8,7 @@ import { AdminComponent } from './admin/admin.component';
 import { NuevousuarioComponent } from './nuevousuario/nuevousuario.component';
 import { ModificarComponent } from './modificar/modificar.component';
 import { CuestionarioComponent } from './cuestionario/cuestionario.component';
+import { SalidaComponent } from './salida/salida.component';
 
 
 
@@ -20,6 +21,7 @@ const routes: Routes = [
     { path: 'nuevousuario', component: NuevousuarioComponent },
     { path: 'modificar', component:ModificarComponent },
     { path: 'cuestionario', component:CuestionarioComponent},
+    { path: 'salida', component:SalidaComponent},
     
     { path: '**', pathMatch:'full', redirectTo:'inicio'},
     

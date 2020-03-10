@@ -13,7 +13,7 @@
 <main class="modificar " id="principal-modificar">
     <div class="contenedor">
 
-        <form class="border border-success p-3 rounded-lg m-5 " id="Formulario ">
+        <form class="border border-success p-3 rounded-lg m-5  mt-1" id="Formulario ">
             <div class="form-row ">
                 <div class="form-group col-md-4 ">
                     <label for="inputfecha ">Fecha</label>
@@ -25,14 +25,67 @@
                 </div>
                 <div class="form-group col-md-4 ">
                     <label for="inputmaterial ">Tipo de Material</label>
-                    <input type="text " class="form-control " id="Material " placeholder="Conos ">
+                    <select class="form-control" id="material">
+                        <option value="#">NINGUNA</option>
+                        <option value="#">CONIFERAS</option>
+                        <option value="#">LATIFOLIADAS</option>
+                        <option value="#">ARBUSTIVAS</option>
+                        <option value="#">FRUTALES</option>
+                        
+                      </select>
                 </div>
 
             </div>
             <div class="form-row ">
                 <div class="form-group col-md-6 ">
                     <label for="inputespecie ">Nombre de la especie</label>
-                    <input type="text " class="form-control " id="especie " placeholder="Pinus teocote... ">
+                    <select class="form-control" id="especie">
+                        <option value="#">NINGUNA</option>
+                        <option value="#"><em> CONIFERAS</em> </option>
+                        <option value="#">Abies Religiosa</option>
+                        <option value="#">Cupressus Lusitanica</option>
+                        <option value="#">Pinus Cembroides</option>
+                        <option value="#">Pinus Greggi</option>
+                        <option value="#">Pinus Hartwegii</option>
+                        <option value="#">Pinus Leiophylla</option>
+                        <option value="#">Pinus Devoniana</option>
+                        <option value="#">Pinus Montezumae</option>
+                        <option value="#">Pinus Patula</option>
+                        <option value="#">Pinus pseudostrobus</option>
+                        <option value="#">Pinus Rudis</option>
+                        <option value="#">Pinus Teocote</option>
+                        <option value="#">Taxodium Mucronatum</option>
+                        <option value="#"><em> LATIFOLIADAS</em></option>
+                        <option value="#">Alnus Jorullensis</option>
+                        <option value="#">Bursera Cuneata</option>
+                        <option value="#">Casuarina Equisetifolia</option>
+                        <option value="#">Fraxinus Udhei</option>
+                        <option value="#">Liquidambar Styraciflua</option>
+                        <option value="#">Prosopis Laevigata</option>
+                        <option value="#">Quercus spp</option>
+                        <option value="#">Salix Babylonica</option>
+                        <option value="#">Salix Bonplandiana</option>
+                        <option value="#">Tamarix Chinensis</option>
+                        <option value="#">Acacia Farnesiana</option>
+                        <option value="#">Agave Ferox</option>
+                        <option value="#">Agave Salmiana</option>
+                        <option value="#">Agave Mezcalero</option>
+                        <option value="#">Arbutus Xalapensis</option>
+                        <option value="#">Buddleja cordata</option>
+                        <option value="#">Dodonaea Viscosa</option>
+                        <option value="#">Echeveria gibbiflora</option>
+                        <option value="#">Eysenhardtia Polystachaya</option>
+                        <option value="#">Fucraea Bedinhaussi</option>
+                        <option value="#">Ipomea Murucoides</option>
+                        <option value="#">Mimosa Biuncifera</option>
+                        <option value="#"> Nolia Parviflora</option>
+                        <option value="#">Senecio Praecox</option>
+                        <option value="#">Senna Multigladulosa</option>
+                        <option value="#">Sedum Oxypetalum</option>
+                        <option value="#">Symphoricarpos Microphyllus</option>
+                        <option value="#">Tecoma Stans</option>
+                         
+                      </select>
                 </div>
                 <div class="form-group col-md-6 ">
                     <label for="inputcategoria ">Categoria</label>

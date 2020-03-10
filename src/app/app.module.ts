@@ -23,6 +23,7 @@ import { AdminComponent } from './admin/admin.component';
 import { NuevousuarioComponent } from './nuevousuario/nuevousuario.component';
 import { ModificarComponent } from './modificar/modificar.component';
 import { CuestionarioComponent } from './cuestionario/cuestionario.component';
+import { SalidaComponent } from './salida/salida.component';
 
 
 
@@ -45,6 +46,8 @@ import { CuestionarioComponent } from './cuestionario/cuestionario.component';
     ModificarComponent,
 
     CuestionarioComponent,
+
+    SalidaComponent,
     
     
   ],

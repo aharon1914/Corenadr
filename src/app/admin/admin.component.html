@@ -1,12 +1,11 @@
 <nav class="navbar navbar-success">
     <img src="../../assets/altepetl_horizontal_blanco.png" width="160" height="80" class="d-inline-block align-top rounded" alt="">
-    <a class="navbar-brand" style="color: rgba(255, 255, 255, 0.884);">Administrador Semillas</a>
+    <a class="navbar-brand" style="color: rgba(255, 255, 255, 0.884);">Registro de Entrada de semillas</a>
     <form class="form-inline">
 
         <button class="btn btn-outline-warning my-2 my-sm-0" type="submit" [routerLink]="['/info']" routerLinkActive="router-link-active">Cerrar Sesion</button>
     </form>
 </nav>
-
 
 
 <main class="adminmodifica " id="principal-admin">
@@ -33,6 +32,11 @@
                             <a href="# " style="color: black; font-size: 17px;" [routerLink]="['/modificar']" routerLinkActive="router-link-active">Modificar</a></li>
                         <br>
                         <br>
+                        <li>
+
+                            <i class="fas fa-sign-out-alt mr-2"></i>
+                            <a href="# " style="color: black; font-size: 17px;" [routerLink]="['/salida']" routerLinkActive="router-link-active">Salida</a></li>
+                        <br>
                         <br>
 
 
@@ -40,6 +44,7 @@
                 </div>
             </div>
         </aside>
+
         <form class="border border-info p-3 rounded-lg m-5 " id="Formulario ">
             <div class="form-row ">
                 <div class="form-group col-md-4 ">
@@ -59,7 +64,53 @@
             <div class="form-row ">
                 <div class="form-group col-md-6 ">
                     <label for="inputespecie ">Nombre de la especie</label>
-                    <input type="text " class="form-control " id="especie " placeholder="Pinus teocote... ">
+                    <select class="form-control" id="especie">
+                        <option value="#">NINGUNA</option>
+                        <option value="#"><em> CONIFERAS</em> </option>
+                        <option value="#">Abies Religiosa</option>
+                        <option value="#">Cupressus Lusitanica</option>
+                        <option value="#">Pinus Cembroides</option>
+                        <option value="#">Pinus Greggi</option>
+                        <option value="#">Pinus Hartwegii</option>
+                        <option value="#">Pinus Leiophylla</option>
+                        <option value="#">Pinus Devoniana</option>
+                        <option value="#">Pinus Montezumae</option>
+                        <option value="#">Pinus Patula</option>
+                        <option value="#">Pinus pseudostrobus</option>
+                        <option value="#">Pinus Rudis</option>
+                        <option value="#">Pinus Teocote</option>
+                        <option value="#">Taxodium Mucronatum</option>
+                        <option value="#"><em> LATIFOLIADAS</em></option>
+                        <option value="#">Alnus Jorullensis</option>
+                        <option value="#">Bursera Cuneata</option>
+                        <option value="#">Casuarina Equisetifolia</option>
+                        <option value="#">Fraxinus Udhei</option>
+                        <option value="#">Liquidambar Styraciflua</option>
+                        <option value="#">Prosopis Laevigata</option>
+                        <option value="#">Quercus spp</option>
+                        <option value="#">Salix Babylonica</option>
+                        <option value="#">Salix Bonplandiana</option>
+                        <option value="#">Tamarix Chinensis</option>
+                        <option value="#">Acacia Farnesiana</option>
+                        <option value="#">Agave Ferox</option>
+                        <option value="#">Agave Salmiana</option>
+                        <option value="#">Agave Mezcalero</option>
+                        <option value="#">Arbutus Xalapensis</option>
+                        <option value="#">Buddleja cordata</option>
+                        <option value="#">Dodonaea Viscosa</option>
+                        <option value="#">Echeveria gibbiflora</option>
+                        <option value="#">Eysenhardtia Polystachaya</option>
+                        <option value="#">Fucraea Bedinhaussi</option>
+                        <option value="#">Ipomea Murucoides</option>
+                        <option value="#">Mimosa Biuncifera</option>
+                        <option value="#"> Nolia Parviflora</option>
+                        <option value="#">Senecio Praecox</option>
+                        <option value="#">Senna Multigladulosa</option>
+                        <option value="#">Sedum Oxypetalum</option>
+                        <option value="#">Symphoricarpos Microphyllus</option>
+                        <option value="#">Tecoma Stans</option>
+                         
+                      </select>
                 </div>
                 <div class="form-group col-md-6 ">
                     <label for="inputcategoria ">Categoria</label>
@@ -74,7 +125,14 @@
                 </div>
                 <div class="form-group col-md-4 ">
                     <label for="inputmaterial ">Tipo de Material</label>
-                    <input type="text " class="form-control " id="Material " placeholder="Conos ">
+                    <select class="form-control" id="material">
+                        <option value="#">NINGUNA</option>
+                        <option value="#">CONIFERAS</option>
+                        <option value="#">LATIFOLIADAS</option>
+                        <option value="#">ARBUSTIVAS</option>
+                        <option value="#">FRUTALES</option>
+                        
+                      </select>
                 </div>
                 <div class="form-group col-md-4 ">
                     <label for="inputCostales ">Numero de costales</label>
@@ -123,9 +181,7 @@
             <img src="../../assets/blanco-CDMX-POSIBLE.png" width="400" height="120" class="d-inline-block align-top rounded mt-3" alt="">
         </ul>
     </div>
-    <div class="footer text-center py-3">© 2020 Copyright:
-        <a href="https://www.sedema.cdmx.gob.mx/secretaria/estructura/22"> Corenader.com</a>
-    </div>
+
 
 
 </footer>

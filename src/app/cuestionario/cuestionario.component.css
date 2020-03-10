@@ -14,3 +14,10 @@
     width: 100%;
     margin-top: 10px;
 }
+
+.titulo-principal-formula {
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    margin-top: 20px;
+}
