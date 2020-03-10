@@ -22,6 +22,7 @@ import { LaboMicroComponent } from './labo-micro/labo-micro.component';
 import { AdminComponent } from './admin/admin.component';
 import { NuevousuarioComponent } from './nuevousuario/nuevousuario.component';
 import { ModificarComponent } from './modificar/modificar.component';
+import { CuestionarioComponent } from './cuestionario/cuestionario.component';
 
 
 
@@ -42,6 +43,8 @@ import { ModificarComponent } from './modificar/modificar.component';
     NuevousuarioComponent,
 
     ModificarComponent,
+
+    CuestionarioComponent,
     
     
   ],

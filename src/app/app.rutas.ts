@@ -7,6 +7,7 @@ import { LaboMicroComponent } from './labo-micro/labo-micro.component';
 import { AdminComponent } from './admin/admin.component';
 import { NuevousuarioComponent } from './nuevousuario/nuevousuario.component';
 import { ModificarComponent } from './modificar/modificar.component';
+import { CuestionarioComponent } from './cuestionario/cuestionario.component';
 
 
 
@@ -18,6 +19,8 @@ const routes: Routes = [
     { path: 'labo-micro', component: LaboMicroComponent },
     { path: 'nuevousuario', component: NuevousuarioComponent },
     { path: 'modificar', component:ModificarComponent },
+    { path: 'cuestionario', component:CuestionarioComponent},
+    
     { path: '**', pathMatch:'full', redirectTo:'inicio'},
     
 

@@ -1,0 +1,16 @@
+/*formulario para toda informaicon relacionada*/
+
+.navbar {
+    background-color: #048c7f;
+}
+
+.cantidades {
+    width: 100%;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.titulolaboresul {
+    width: 100%;
+    margin-top: 10px;
+}
