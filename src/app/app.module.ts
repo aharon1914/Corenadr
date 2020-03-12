@@ -24,6 +24,7 @@ import { NuevousuarioComponent } from './nuevousuario/nuevousuario.component';
 import { ModificarComponent } from './modificar/modificar.component';
 import { CuestionarioComponent } from './cuestionario/cuestionario.component';
 import { SalidaComponent } from './salida/salida.component';
+import { HistoriaComponent } from './historia/historia.component';
 
 
 
@@ -48,6 +49,8 @@ import { SalidaComponent } from './salida/salida.component';
     CuestionarioComponent,
 
     SalidaComponent,
+
+    HistoriaComponent,
     
     
   ],
