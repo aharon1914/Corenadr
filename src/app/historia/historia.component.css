@@ -1,17 +1,41 @@
 .historia {
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Viaoda Libre', cursive;
     margin-top: 6vh;
     margin-bottom: 4vh;
 }
 
+
+/*linea de separacion*/
+
 .line {
     background-color: black;
 }
 
+
+/*contenido del texto*/
+
 .contenedor-texto {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
 }
+
+
+/*aplicacion del display */
+
+.cont-texto {
+    display: grid;
+}
+
+
+/*imagen del vivero*/
+
+.imagen-vivero {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80px;
+}
+
+
+/*blocuqe de la historia de san luis*/
