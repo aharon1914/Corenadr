@@ -25,6 +25,7 @@ import { ModificarComponent } from './modificar/modificar.component';
 import { CuestionarioComponent } from './cuestionario/cuestionario.component';
 import { SalidaComponent } from './salida/salida.component';
 import { HistoriaComponent } from './historia/historia.component';
+import { TablasComponent } from './tablas/tablas.component';
 
 
 
@@ -51,6 +52,8 @@ import { HistoriaComponent } from './historia/historia.component';
     SalidaComponent,
 
     HistoriaComponent,
+
+    TablasComponent,
     
     
   ],

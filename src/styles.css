@@ -24,12 +24,12 @@
 /*login registro */
 
 .Inicio-login {
-    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.2), 0 5px 12px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 40px 250px 0 rgba(0, 0, 0, 0.19);
 }
 
 .avatar {
     width: 30vh;
-    height: 21vh;
+    height: 22vh;
 }
 
 .contenedorlog {

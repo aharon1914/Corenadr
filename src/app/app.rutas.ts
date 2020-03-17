@@ -9,6 +9,7 @@ import { NuevousuarioComponent } from './nuevousuario/nuevousuario.component';
 import { ModificarComponent } from './modificar/modificar.component';
 import { CuestionarioComponent } from './cuestionario/cuestionario.component';
 import { SalidaComponent } from './salida/salida.component';
+import { TablasComponent } from './tablas/tablas.component';
 
 
 
@@ -22,6 +23,7 @@ const routes: Routes = [
     { path: 'modificar', component:ModificarComponent },
     { path: 'cuestionario', component:CuestionarioComponent},
     { path: 'salida', component:SalidaComponent},
+    { path: 'tablas', component:TablasComponent},
     
     { path: '**', pathMatch:'full', redirectTo:'inicio'},
     
